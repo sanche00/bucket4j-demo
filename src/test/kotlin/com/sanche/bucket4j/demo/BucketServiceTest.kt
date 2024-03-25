@@ -13,7 +13,6 @@ import java.time.Duration
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.atomic.AtomicLong
 
-inline fun <reified T> T.logger() = LoggerFactory.getLogger(T::class.java)!!
 
 @SpringBootTest
 class BucketServiceTest {
